@@ -19,7 +19,7 @@ describe "Bundler" do
         Pathname("Gemfile.lock").write(<<~EOF, mode: "a")
 
           RUBY VERSION
-            ruby 3.1.6
+            ruby 2.5.9
         EOF
       end
       app.deploy do
